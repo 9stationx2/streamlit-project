@@ -100,7 +100,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 param_dist = {
     'n_estimators': [50, 100, 200, 300],
     'max_depth': [None, 5, 10, 20],
-    'max_features': ['auto', 'sqrt', 'log2'],
+    'max_features': ['sqrt', 'log2'],
     'min_samples_split': [2, 5, 10],
     'min_samples_leaf': [1, 2, 4]
 }
